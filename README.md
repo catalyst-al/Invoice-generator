@@ -4,7 +4,7 @@ Standalone invoice generator created for Stiven Catalyst Coaching.
 
 ## Live app
 
-https://stivenjanaqi.github.io/Invoice-generator/
+https://catalyst-al.github.io/Invoice-generator/
 
 ## Features
 

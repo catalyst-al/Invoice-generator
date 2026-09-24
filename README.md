@@ -14,6 +14,7 @@ https://stivenjanaqi.github.io/Invoice-generator/
 - Automatic 20% VAT calculation.
 - Customer details and recent customers.
 - Invoice numbering and date fields.
+- Vector signature and company stamp on every invoice (sharp in print/PDF). The stamp is drawn in code (`stamp.js`) from the company NIPT and the stamp texts in the company settings.
 - Print / Save as PDF.
 - Local browser storage for settings, services, clients and invoice history.
 - Backup/export and import support.

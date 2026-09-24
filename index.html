@@ -29,7 +29,9 @@
       <label style="margin-top:14px;">Logo</label><div class="fileline"><img id="logo-preview" src="" alt="logo"><input type="file" accept="image/*" id="f-logo"><button class="btn small" onclick="App.resetImg('logo')">Rikthe origjinalin</button></div>
       <label>Nënshkrimi</label><div class="fileline"><img id="sig-preview" src="" alt="nënshkrim"><input type="file" accept="image/*" id="f-sig"><button class="btn small" onclick="App.resetImg('signature')">Rikthe origjinalin</button></div>
       <label>Vula</label><div class="fileline"><img class="stampimg" id="stamp-preview" src="" alt="vula"><input type="file" accept="image/*" id="f-stamp"><button class="btn small" onclick="App.resetImg('stamp')">Rikthe origjinalin</button></div>
-      <p class="hint">Logoja/nënshkrimi/vula fillestare janë marrë nga fatura jote e mëparshme (foto) — cilësia është e kufizuar. Ngarko skedarë PNG më të pastër këtu kur t'i kesh, dhe do zëvendësohen menjëherë.</p>
+      <div class="row2"><div><label>Vula — harku lart</label><input type="text" id="c-stampTop"></div><div><label>Vula — rreshti i dytë</label><input type="text" id="c-stampInner"></div></div>
+      <div class="row2"><div><label>Vula — qendra</label><input type="text" id="c-stampCenter"></div><div><label>Vula — harku poshtë</label><input type="text" id="c-stampBottom"></div></div>
+      <p class="hint">Nënshkrimi dhe vula janë vektoriale, ndaj dalin të mprehta edhe në PDF. Vula vizatohet nga tekstet e mësipërme + NIPT-i i kompanisë. Nëse ngarkon një foto (PNG) për nënshkrimin ose vulën, ajo zëvendëson origjinalin; “Rikthe origjinalin” e kthen sërish.</p>
       <div class="btn-row"><button class="btn primary" onclick="App.saveCompany()">Ruaj të dhënat e kompanisë</button></div>
     </details>
 
@@ -65,6 +67,7 @@
 
 <div class="toast" id="toast"></div>
 <script src="assets.js"></script>
+<script src="stamp.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
